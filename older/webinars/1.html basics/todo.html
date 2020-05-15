@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <input id="txt">
+        <button id="btn">Add</button>
+
+        <ol id="list">
+            
+        </ol>
+
+
+
+        <script>
+            let todotxt = document.getElementById("txt");
+            let addbtn = document.getElementById("btn");
+            let todoList = document.getElementById("list");
+
+            addbtn.onclick=function(){
+                //todoList.innerHTML += "<li>" + todotxt.value + "</li>";
+
+                 let newElement = document.createElement("li") //<li> </li>
+                 newElement.innerText = todotxt.value;
+                 todoList.appendChild(newElement);
+            }
+        </script>
+    </body>
+
+</html>

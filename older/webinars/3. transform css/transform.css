@@ -1,0 +1,13 @@
+#div1{
+    margin:150px;
+    height:300px;
+    width:300px;
+    background-color: aqua;
+    /* transform: translate(30px,30px); //shift from left 30px and from up 30px; */
+    /* transform: scale(3); //increase or decrease the size */
+    /* transform:rotateX(440deg) //rotate on X axis */
+    /* transform:rotateY(180deg); //rotate on Y axis*/
+    /* transform:rotateZ(20deg); // rotate on Z axis (which is coming outside the screen) */
+    /* transform:skew(80deg,50deg); */
+
+}

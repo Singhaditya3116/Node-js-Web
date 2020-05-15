@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mysql Expresss</title>
+    </head>
+    <body>
+        <table cellpadding="20px" border="1px solid black" align="center">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+
+            {{#each result as |p|}}
+                <tr>
+                    <td>{{p.id}}</td>
+                    <td>{{p.name}}</td>
+                    <td>{{p.age}}</td>
+                </tr>
+            {{/each}}
+        </table>
+    </body>
+</html>

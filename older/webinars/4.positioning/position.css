@@ -1,0 +1,24 @@
+.div{
+    margin:30px;
+}
+#div1{
+    background-color: aqua;
+}
+#div2{
+    background-color:lightsalmon;
+}
+#div3{
+
+    background-color: lightgreen;
+    /* position: relative; //with respect to static
+    left:30px;
+    top:30px;
+    bottom: 10px; */
+
+    /* position: fixed;  //with respect to window
+    top:600px; */
+
+
+    /* position:absolute; // with repect to nearest ancestor which is fixed. */
+
+}
